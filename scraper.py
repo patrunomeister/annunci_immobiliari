@@ -133,7 +133,7 @@ while next_url:
         
         scraperwiki.sql.save(unique_keys=['giorno','url','desc','prezzo','comune','locali','superficie','lat','lng'], data=data)
 
-    # verivica se se c'è una ulteriore pagina da screpare
+    # verivica se se c'e una ulteriore pagina da screpare
     
     if "next_page_url" in extracted:
         next_url = urlparse.urljoin(
