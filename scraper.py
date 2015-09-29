@@ -140,7 +140,7 @@ while next_url:
             current_url,
             extracted["next_page_url"])
         
-        # verifica se la pagina è l'ultima
+        # verifica se la pagina e l'ultima
 
         if next_url == current_url:
             break
